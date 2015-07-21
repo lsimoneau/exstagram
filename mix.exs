@@ -30,7 +30,8 @@
     [
       {:oauth2, "~> 0.1.0"},
       {:httpoison, "~> 0.7"},
-      {:poison, "1.4.0"}
+      {:poison, "1.4.0"},
+      {:exvcr, "~> 0.3", only: [:dev, :test]}
     ]
   end
 end

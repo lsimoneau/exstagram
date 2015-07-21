@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "connect_timeout": 5000,
+        "recv_timeout": "infinity"
+      },
+      "url": "https://api.instagram.com/v1/subscriptions"
+    },
+    "response": {
+      "body": "{\"meta\":{\"code\":200},\"data\":[{\"object\":\"tag\",\"object_id\":\"exstagram\",\"aspect\":\"media\",\"callback_url\":\"http:\\/\\/825b08dd.ngrok.io\\/callback\\/exstagram\",\"type\":\"subscription\",\"id\":\"19153100\"}]}",
+      "headers": {
+        "X-Ratelimit-Remaining": "4981",
+        "Content-Language": "en",
+        "Expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+        "Vary": "Cookie, Accept-Language",
+        "X-Ratelimit-Limit": "5000",
+        "Pragma": "no-cache",
+        "Cache-Control": "private, no-cache, no-store, must-revalidate",
+        "Date": "Tue, 21 Jul 2015 12:14:00 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Set-Cookie": "csrftoken=f6bc88878fc041b4fbad0dc41731ec19; expires=Tue, 19-Jul-2016 12:14:00 GMT; Max-Age=31449600; Path=/",
+        "Connection": "keep-alive",
+        "Content-Length": "191"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "connect_timeout": 5000,
+        "recv_timeout": "infinity"
+      },
+      "url": "https://api.instagram.com/v1/subscriptions"
+    },
+    "response": {
+      "body": "{\"meta\":{\"code\":200},\"data\":[]}",
+      "headers": {
+        "X-Ratelimit-Remaining": "4987",
+        "Content-Language": "en",
+        "Expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+        "Vary": "Cookie, Accept-Language",
+        "X-Ratelimit-Limit": "5000",
+        "Pragma": "no-cache",
+        "Cache-Control": "private, no-cache, no-store, must-revalidate",
+        "Date": "Tue, 21 Jul 2015 12:05:35 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Set-Cookie": "csrftoken=89ccbaeedc3936b9e3e821a510d25e6f; expires=Tue, 19-Jul-2016 12:05:35 GMT; Max-Age=31449600; Path=/",
+        "Connection": "keep-alive",
+        "Content-Length": "31"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
